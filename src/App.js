@@ -7,13 +7,13 @@ export default function App() {
     <div className="App">
       <h1>Like button!</h1>
       <p>
-        Implement a button that has a liked state display the number of likes
-        passed in by props plus the current user like.
+        Implement the behaviour of the GIF on <code>./LikedButton.js</code>
       </p>
-      <p>
-        This button should have a not liked state too, displaying only the likes
-        count passed in by props
-      </p>
+      <img
+        src="/liked-button.gif"
+        alt="Button being clicked"
+        id="button-behaviour"
+      />
 
       <LikedButton count={89} />
     </div>
